@@ -1,0 +1,17 @@
+button.button-1:hover {
+    background-color: green;
+    color: white;
+}
+button.button-1::before {
+    content: 'Pasa por encima ';
+    font-size: xx-large; 
+    /* visibility: hidden; */
+      
+}
+button.button-1::after {
+    content: ' Hecho';
+    font-size: xx-large; 
+    /* display: none; */
+}
+
+
