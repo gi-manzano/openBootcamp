@@ -1,0 +1,54 @@
+.input {
+    width: 100%;
+    /* height: calc(2em + 3px); */
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 6px;
+}
+
+.input[type="password"] { 
+    color:green;
+    background-color: aquamarine;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 2px solid rgb(226, 225, 225);
+    outline: none;
+    padding: 5px;
+    color: rgb(193, 187, 187);
+}
+
+.input-moderno::placeholder {
+    color: #c2c2c2;
+}
+
+.input-moderno:focus {
+    border-bottom: 2px solid rgb(60, 205, 58);
+
+}
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+    box-shadow: 0 0 10px #ccc;
+
+}
+
+.input-background::placeholder {
+    color: rgb(235, 165, 74);
+}
+
+.input-search {
+    padding: 10px;
+    border: none;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 10px #ddd;
+}
+
